@@ -32,21 +32,28 @@ class Quiz : ProgressPrintable {
         var answered: Int = 3
     }
     fun printQuiz() {
-        println(question1.questionText)
-        println(question1.answer)
-        println(question1.difficulty)
+        question1.let {
+            println(it.questionText)
+            println(it.answer)
+            println(it.difficulty)
+        }
         println()
-        println(question2.questionText)
-        println(question2.answer)
-        println(question2.difficulty)
+        question2.let {
+            println(it.questionText)
+            println(it.answer)
+            println(it.difficulty)
+        }
         println()
-        println(question3.questionText)
-        println(question3.answer)
-        println(question3.difficulty)
+        question3.let {
+            println(it.questionText)
+            println(it.answer)
+            println(it.difficulty)
+        }
         println()
     }
 }
 
 fun main() {
-    Quiz().printProgressBar()
+    val quiz = Quiz()
+    quiz.printQuiz()
 }
