@@ -50,6 +50,9 @@ fun main(){
     solarSystem.add("Pluto")
     println(solarSystem.size)
     println(solarSystem.contains("Pluto"))
+    solarSystem.add("Pluto")
+    println(solarSystem.size)
+
 
 
 }
