@@ -15,6 +15,8 @@ fun main(){
 
     solarSystem[3] = "Little Earth"
     println(solarSystem[3])
-    solarSystem[8] = "Pluto"
+    //solarSystem[8] = "Pluto" will get exception
+    val newSolarSystem = arrayOf("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto")
+    println(newSolarSystem[8])
 
 }
