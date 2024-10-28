@@ -30,6 +30,5 @@ fun Quiz.StudentProgress.printProgressBar() {
 }
 
 fun main(){
-    println(Quiz.progressText)
     Quiz.printProgressBar()
 }
