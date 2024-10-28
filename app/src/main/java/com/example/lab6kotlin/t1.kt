@@ -11,6 +11,12 @@ class TrueOrFalseQuestion(
     val difficulty: String
 )
 
+class NumericQuestion(
+    val questionText: String,
+    val answer: Int,
+    val difficulty: String
+)
+
 fun main(){
 
 }
