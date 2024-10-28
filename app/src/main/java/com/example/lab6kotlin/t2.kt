@@ -72,6 +72,7 @@ fun main(){
     println(solarSystem.get("Theia"))
     solarSystem.remove("Pluto")
     println(solarSystem.size)
-
+    solarSystem["Jupiter"] = 78
+    println(solarSystem["Jupiter"])
 
 }
