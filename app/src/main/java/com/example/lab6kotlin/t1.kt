@@ -54,7 +54,7 @@ class Quiz : ProgressPrintable {
 }
 
 fun main() {
-    val quiz = Quiz().apply {
+    Quiz().apply {
         printQuiz()
     }
 }
