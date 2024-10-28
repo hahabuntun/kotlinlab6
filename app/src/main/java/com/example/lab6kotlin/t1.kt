@@ -31,6 +31,20 @@ class Quiz : ProgressPrintable {
         var total: Int = 10
         var answered: Int = 3
     }
+    fun printQuiz() {
+        println(question1.questionText)
+        println(question1.answer)
+        println(question1.difficulty)
+        println()
+        println(question2.questionText)
+        println(question2.answer)
+        println(question2.difficulty)
+        println()
+        println(question3.questionText)
+        println(question3.answer)
+        println(question3.difficulty)
+        println()
+    }
 }
 
 fun main() {
