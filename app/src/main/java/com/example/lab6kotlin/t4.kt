@@ -1,2 +1,6 @@
-package com.example.lab6kotlin
-
+data class Event(
+    val title: String,
+    val description: String? = null,
+    val daypart: String,
+    val durationInMinutes: Int,
+)
